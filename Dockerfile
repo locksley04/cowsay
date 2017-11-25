@@ -10,6 +10,4 @@ RUN apk add --no-cache perl
 cp cowsay /usr/bin/cowsay 
 cp *.cow /usr/share/cowsay 
 
-ENTRYPOINT ["/usr/bin/cowsay"] 
-
-CMD ["God gave man a brain and a penis and only enough blood to run one at a time"] 
+CMD [/usr/bin/cowsay","God gave man a brain and a penis and only enough blood to run one at a time"] 
