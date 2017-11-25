@@ -7,8 +7,8 @@ MAINTAINER o.samu.u09+docker@gmail.com
 
 RUN apk add --no-cache perl 
 
-CP cowsay /usr/bin/cowsay 
-CP *.cow /usr/share/cowsay 
+cp cowsay /usr/bin/cowsay 
+cp *.cow /usr/share/cowsay 
 
 ENTRYPOINT ["/usr/bin/cowsay"] 
 
